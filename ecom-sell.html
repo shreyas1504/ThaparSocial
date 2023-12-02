@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Thapar Social</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="ecom.css">
+    </head>
+    <body>
+        <nav>
+            <div class ="container">
+                <h2 class="logo">Thapar Social</h2>
+                <div class = "search-bar">
+                    <i class="uil uil-search"></i>
+                    <input type="search" placeholder="Search for creators, inspirations, and projects">
+                </div>
+                <div class ="create">
+                    <label  class="btn btn-primary" for ="create-post">Create</label>
+                    <div class="profile-photo">
+                        <img src="images\profile-1.jpg" >
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-------------------------    MAIN  -------------------->
+        <main>
+            <div class ="container">
+                <!-------------------------    LEFT  -------------------->
+                <div class ="left">
+                    <a class="profile">
+                        <div class="profile-photo">
+                            <img src="images\profile-1.jpg" >
+                        </div>
+                        <div class="handle">
+                            <h4>Diana Ayi</h4>
+                            <p class="text-muted">
+                                @dayi
+                            </p>
+                        </div>
+                    </a>
+                    <!------------------------ SIDEBAR -------------------------->
+                    <div class="sidebar">
+                        <a class="menu-item" href="./index.html" style="color: inherit;">
+                            <span><i class="uil uil-home"></i></span> <h3>Home</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="uil uil-compass"></i></span> <h3>Explore</h3>
+                        </a>
+                        <a class="menu-item" id="notifications">
+                            <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span> <h3>Notifications</h3>
+                            <!------------------------NOTIFICATION POPUP ------------------------------>
+                            <div class="notifications-popup">
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="images\profile-2.jpg" >
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>Keke Benjamin</b> accepted your friend request
+                                        <small class="text-muted">2 DAYS AGO</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="images\profile-3.jpg" >
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>John Doe</b> commented on your post
+                                        <small class="text-muted">1 HOUR AGO</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="images\profile-4.jpg" >
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>Mary Oppong</b> and <b>283 others </b> liked on your post
+                                        <small class="text-muted">4 MINUTES AGO</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="images\profile-5.jpg" >
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>Doris Y. Lartey</b> commented on a post you are tagged in 
+                                        <small class="text-muted">2 DAYS AGO</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="images\profile-6.jpg" >
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>Donal Trump</b> commented on your post
+                                        <small class="text-muted">1 HOUR AGO</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="images\profile-7.jpg" >
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>Jane Doe</b> accepted your friend request
+                                        <small class="text-muted">3 DAYS AGO</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------------------------END OF NOTIFICATION POPUP ------------------------------>
+                        </a>
+                        <a class="menu-item" id="messages-notification">
+                            <span><i class="uil uil-envelope-alt" ><small class="notification-count">6</small></i></span> <h3>Messages</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="uil uil-bookmark"></i></span> <h3>Bookmarks</h3>
+                        </a>
+                        <a class="menu-item active" href="./ecom.html" style="color: inherit;">
+                            <span><i class="uil uil-shopping-cart-alt"></i></span> <h3>Market-Place</h3>
+                        </a>
+                        <a class="menu-item" id="theme">
+                            <span><i class="uil uil-palette"></i></span> <h3>Theme</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="uil uil-setting"></i></span> <h3>Settings</h3>
+                        </a>
+                        <!------------------------ END OF SIDEBAR -------------------------->
+                    </div>
+                    <label for="create-post" class="btn btn-primary">Create Post</label>
+                </div >
+                <!------------------------------- END OF LEFT ----------------------->
+                <!-------------------------    MIDDLE  -------------------->
+                <div class="middle">
+                    <div class="container-m">
+                        <div class="user-type">
+                            <div class="buyer">
+                                <a href="./ecom.html">
+                                <div class="btn"><h4>Buy Products</h4></div>
+                                </a>
+                            </div>
+                            <div class="seller" >
+                                <div class="btn active"><h4>Sell Products</h4></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="text-muted">
+                            <h5>What would you like to sell Today?</h5>
+                        </div>
+                        <form id="sellForm">
+
+                            <div class="r1">
+                            
+                            <input type="text" id="itemName" name="itemName" required placeholder="Item Name" >
+                            <input type="number" id="mrp" name="mrp" required placeholder="Price">
+                            </div>
+                            
+                            <div class="r2">
+                            <input type="text" id="name" name="name" required placeholder="Name">
+                            <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Ph. Number">
+                            </div>
+                            <label for="image">Upload Image:</label>
+                            <br>
+                            <input type="file" id="image" name="image" required accept="image/*">
+                
+                            <button type="submit" onclick="listItem()" for="create-post">List Item</button>
+                        </form>
+                        <div class="cat-bar">
+                            items listed by you
+                        </div>
+                        <div class="item-panel">
+                            <!---------------- ITEM 1 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/watch-1'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Titan Watch White Dial
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>4,000
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row3">
+                                    <div class="name">
+                                        Vanshika Babbar
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9943571234
+                                    </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <!---------------- ITEM 2 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fclothing-6.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        White Oversized Sweater
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>1,220
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row3">
+                                    <div class="name">
+                                        Arnav Bajwa
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9189765432
+                                    </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <!---------------- ITEM 3 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/fshoes-4.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Silver-Golden Slipons
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>569
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row3">
+                                    <div class="name">
+                                        Tanya Mehra
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9943571234
+                                    </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <!---------------- ITEM 4 ---------------->
+                            <div class="item">
+                                <div class="image">
+                                    <img src ='./images/watch-2.jpeg'>
+                                </div>
+                                <div class="detail">
+                                    <div class="row1">
+                                    <div class="itm-name text-muted">
+                                        Women watch combo
+                                    </div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="price">
+                                            <i class="uil uil-rupee-sign"></i>2,100
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row3">
+                                    <div class="name">
+                                        Anisa Khan
+                                    </div>
+                                    <div class="ph-number">
+                                       Ph. 9956575432
+                                    </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <!---------------------- END ITEMS ---------------->
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------    RIGHT  -------------------->
+                <div class="right">
+                    <div class="messages">
+                        <div class="heading">
+                            <h4>Messages</h4><i class="uil uil-edit"></i>
+                        </div>
+                        <!----------------------------SEARCH BAR ------------------->
+                        <div class="search-bar">
+                            <i class="uil uil-search"></i>
+                            <input type="search" placeholder="Search messages", id="message-search" style="border: 0px; background: var(--color-white)">
+                        </div>
+                        <!----------------------------MESSAGE CATEGORY ------------------->
+                        <div class = "category">
+                            <h6 class="active">Primary</h6>
+                            <h6>General</h6>
+                            <h6  class="message-requests">Requests(7)</h6>
+                        </div>
+                        <div class = "mes-cont">
+                        <!----------------------------MESSAGE 1------------------->    
+                        <div class="message">
+                            <div class="profile-photo active">
+                                <img src="./images/profile-17.jpg">
+                            </div>
+                            <div class="message-body">
+                                <h5>Edem Quist</h5>
+                                <p class="text-muted">Just woke up bruh</p>
+                            </div>
+                        </div>
+                        <!----------------------------MESSAGE 2------------------->    
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src="./images/profile-5.jpg">
+                            </div>
+                            <div class="message-body">
+                                <h5>Daniella Jackson</h5>
+                                <p class="text-bold">2 new messages</p>
+                            </div>
+                        </div>
+                        <!----------------------------MESSAGE 3------------------->    
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src="./images/profile-19.jpg">
+                                <div class="active"></div>
+                            </div>
+                            <div class="message-body">
+                                <h5>Jane Doe</h5>
+                                <p class="text-muted">Ok</p>
+                            </div>
+                        </div>  
+                        <!----------------------------MESSAGE 4------------------->
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src="./images/profile-8.jpg">
+                                <!-- <div class="active"></div> -->
+                            </div>
+                            <div class="message-body">
+                                <h5>Luke Boren</h5>
+                                <p class="text-muted">Hey, what's up?</p>
+                            </div>
+                        </div>  
+                        <!----------------------------MESSAGE 5------------------->
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src="./images/profile-10.jpg">
+                                <!-- <div class="active"></div> -->
+                            </div>
+                            <div class="message-body">
+                                <h5>Jessie Dave</h5>
+                                <p class="text-bold">Birthday Tomorrow!!!!</p>
+                            </div>
+                        </div>  
+                        <!----------------------------MESSAGE 6------------------->
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src="./images/profile-9.jpg">
+                                <div class="active"></div>
+                            </div>
+                            <div class="message-body">
+                                <h5>Alex Loir</h5>
+                                <p class="text-muted">Ok</p>
+                            </div>
+                        </div> 
+                        </div> 
+
+                    </div>
+                    <!--------------------------END OF MESSAGES ----------------->
+
+                    <!--------------------------FRIEND REQUESTS ------------------------>
+                    <div class="friend-requests">
+                        <h4>Requests</h4>
+                        <div class="cont">
+                        <!-----------------REQUEST 1 ----------------->
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-14.jpg">
+                                </div>
+                                <div>
+                                    <h5>Hajia BIntu</h5>
+                                    <p class="text-muted"style="font-size: 0.8rem;">4 mutual friends</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">
+                                    Accept
+                                </button>
+                                <button class="btn">
+                                    Decline
+                                </button>
+                            </div>
+                        </div>
+                        <!-----------------REQUEST 2 ----------------->
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-18.jpg">
+                                </div>
+                                <div>
+                                    <h5>Alex Reef</h5>
+                                    <p class="text-muted"style="font-size: 0.8rem;">38 mutual friends</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">
+                                    Accept
+                                </button>
+                                <button class="btn">
+                                    Decline
+                                </button>
+                            </div>
+                        </div>
+                        <!-----------------REQUEST 3 ----------------->
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-6.jpg">
+                                </div>
+                                <div>
+                                    <h5>Hannah Beliza</h5>
+                                    <p class="text-muted" style="font-size: 0.8rem;">11 mutual friends</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">
+                                    Accept
+                                </button>
+                                <button class="btn">
+                                    Decline
+                                </button>
+                            </div>
+                        </div>
+                        <!-----------------REQUEST 4 ----------------->
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-11.jpg">
+                                </div>
+                                <div>
+                                    <h5>Michael Brune</h5>
+                                    <p class="text-muted" style="font-size: 0.8rem;">3 mutual friends</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">
+                                    Accept
+                                </button>
+                                <button class="btn">
+                                    Decline
+                                </button>
+                            </div>
+                        </div>
+                        <!-----------------REQUEST 5 ----------------->
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-20.jpg">
+                                </div>
+                                <div>
+                                    <h5>Anisa Javed</h5>
+                                    <p class="text-muted" style="font-size: 0.8rem;">118 mutual friends</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">
+                                    Accept
+                                </button>
+                                <button class="btn">
+                                    Decline
+                                </button>
+                            </div>
+                        </div>
+                        <!-----------------REQUEST 6 ----------------->
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-9.jpg">
+                                </div>
+                                <div>
+                                    <h5>Bren Mass</h5>
+                                    <p class="text-muted" style="font-size: 0.8rem;">68 mutual friends</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">
+                                    Accept
+                                </button>
+                                <button class="btn">
+                                    Decline
+                                </button>
+                            </div>
+                        </div>
+                        <!-----------------REQUEST 7 ----------------->
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-17.jpg">
+                                </div>
+                                <div>
+                                    <h5>Mellisa Baye</h5>
+                                    <p class="text-muted" style="font-size: 0.8rem;">243 mutual friends</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">
+                                    Accept
+                                </button>
+                                <button class="btn">
+                                    Decline
+                                </button>
+                            </div>
+                        </div>
+                        <!----------------------REQUEST END ------------------------------>
+                    </div>
+                    </div>
+                </div>
+                <!--------------------------END OF RIGHT ------------------------>
+            </div>
+        </main>
+        <!--------------------------THEME CUSTOMIZATION ------------->
+        <div class="customize-theme">
+            <div class="card">
+                <h2>Customize your view</h2>
+                <p class="text-muted"> Manage your font colour, size ,and background.</p>
+                <!-------------font sizes---------------->
+                <div class="font-size">
+                    <h4>Font Size</h4>
+                    <div>
+                            <h6>Aa</h6>
+                            <div class="choose-size">
+                                <span class="font-size-1"></span> 
+                                <span class="font-size-2 "></span>
+                                <span class="font-size-3 active"></span> 
+                                <span class="font-size-4"></span>
+                                <span class="font-size-5"></span>
+                            </div> 
+                            <h3>Aa</h3>
+                    </div>
+                </div>
+                
+                <!-------------primary colours----------->
+                <div class="colour">
+                    <h4>Color</h4>
+                    <div class="choose-color">
+                        <span class="color-1 active"></span>
+                        <span class="color-2"></span>
+                        <span class="color-3"></span>
+                        <span class="color-4"></span>
+                        <span class="color-5"></span>
+                    </div>
+                </div>
+            
+                <!-----------background colours---------->
+
+                <div class="background">
+                    <h4>background</h4>
+                    <div class ="choose-bg">
+                        <div class="bg-1 active">
+                            <span></span>
+                            <h5 for="bg-1" >Light</h5>
+                        </div>
+                        <div class="bg-2">
+                            <span></span> 
+                            <h5 for="bg-2">Dim</h5>
+                        </div>
+                        <div class="bg-3">
+                            <span></span>
+                            <h5 for="bg-3">Night</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js" async defer></script>
+    </body>
+</html>
